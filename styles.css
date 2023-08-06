@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+body {
+  font-family: "Red Hat Display", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  background-position: 110%;
+  background-position-x: center;
+  background-position-y: top;
+}
+
+.container {
+  /*border: 1px solid red;*/
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-ppal {
+  display: flex;
+  justify-content: center;
+}
+.titulo-ppal .titulo {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  width: 220px;
+  /*font-size: xx-large*/
+  font-weight: 900;
+  text-align: center;
+}
+
+.parrafo-ppal {
+  display: flex;
+  justify-content: center;
+}
+.parrafo-ppal .parrafo {
+  width: 296px;
+  height: 73px;
+  margin-top: 35px;
+  margin-bottom: 0;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+.contenedor-blanco {
+  background-color: white;
+  width: 28.438rem;
+  height: 43.813rem;
+  /*border: 2px solid black;*/
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen img {
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.anual-plan {
+  background-color: hsl(225, 100%, 98%);
+  width: 21.938rem;
+  height: 5.125rem;
+  border-radius: 0.625rem;
+  margin-top: 1.938rem;
+  margin-left: 3.25rem;
+  display: flex;
+  /*justify-content: center;
+  align-items: center;*/
+}
+.anual-plan img {
+  width: 3.438rem;
+  height: 3.438rem;
+  margin-left: 1.75rem;
+  margin-top: 1.25rem;
+}
+.anual-plan .annual {
+  font-weight: 900;
+  margin-top: 1.563rem;
+  margin-left: 1.438rem;
+}
+.anual-plan .cincuenta {
+  opacity: 0.5;
+  font-size: small;
+  margin-top: 3.125rem;
+  margin-left: -5.688rem;
+}
+.anual-plan .change {
+  margin-left: 6.063rem;
+  margin-top: 1.938rem;
+}
+.anual-plan .change:hover {
+  opacity: 0.7;
+}
+
+.sectorInferior {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sectorInferior .botonllamado {
+  display: flex;
+  justify-content: center;
+}
+.sectorInferior .botonllamado .boton {
+  margin-top: 32px;
+  width: 22rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  border: none;
+  padding: 1rem;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border-radius: 0.625rem;
+  box-shadow: 0rem 0.625rem 1.875rem #999;
+}
+.sectorInferior .botonllamado .boton:hover {
+  /*background-color: variables.$Desaturatedblue;*/
+  opacity: 0.65;
+  cursor: pointer;
+}
+.sectorInferior .cancelar {
+  margin-top: 37px;
+  opacity: 0.5;
+}
+.sectorInferior .cancelar:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+@media (max-width: 375px) {
+  .contenedor-blanco {
+    width: 20.625rem;
+    height: 40.625rem;
+    transition: all;
+    transition-duration: 10ms;
+  }
+  .anual-plan {
+    width: 19rem;
+    height: 4.938rem;
+    margin-left: 0.75rem;
+  }
+  .anual-plan img {
+    width: 55px;
+    height: 55px;
+    margin-left: 28px;
+    margin-top: 10px;
+  }
+  .anual-plan .annual {
+    font-weight: 900;
+    margin-top: 20px;
+    margin-left: 23px;
+  }
+  .anual-plan .cincuenta {
+    opacity: 0.5;
+    font-size: small;
+    margin-top: 43px;
+    margin-left: -91px;
+  }
+  .anual-plan .change {
+    margin-left: 39px;
+    margin-top: 31px;
+  }
+  .botonllamado {
+    width: 19rem;
+  }
+  .botonllamado .boton {
+    width: 19rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
